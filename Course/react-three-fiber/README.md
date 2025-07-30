@@ -30,6 +30,11 @@ A React application built with Vite for 3D graphics and interactive experiences.
 - **Vite** - Build tool
 - **ESLint** - Code quality
 
+## Resources
+
+- **[React Three Fiber Documentation](https://docs.pmnd.rs/)** - Official documentation for React Three Fiber and related libraries
+- **[3D Models - Turbine](https://www.fab.com/category/3d-model?q=turbine)** - 3D model resources for turbines and other objects
+
 ## Project Structure
 
 ```
