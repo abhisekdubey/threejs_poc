@@ -8,6 +8,10 @@ import { DreiPresentationControlsScene } from "./DreiPresentationControlsScene";
 import { DreiScrollControlsScene } from "./DreiScrollControlsScene";
 import { DreiTransformControl } from "./DreiTransformControl";
 import { PivotControlScene } from "./PivotControlScene";
+import { Drei3DTextAndHTML } from "./Drei3DTextAndHTML";
+import { DreiPositionalAudioHelperScene } from "./DreiPositionalAudioHelperScene";
+import { DreiShadersScene } from "./DreiShadersScene";
+import { DreiMeshPortalMaterialScene } from "./DreiMeshPortalMaterialScene";
 
 export function ReactDreiPlayground() {
   return (
@@ -16,7 +20,7 @@ export function ReactDreiPlayground() {
       style={{ height: "100vh" }}
     >
       <Canvas
-        shadows
+        // shadows
         gl={{ antialias: true }}
         // camera={{ fov: 75, near: 0.1, far: 1000, position: [1, 3, 6] }}
         // camera={{ position: [0, 20, 5], fov: 60 }} // for scroll controls
@@ -28,7 +32,15 @@ export function ReactDreiPlayground() {
         {/* <DreiPresentationControlsScene /> */}
         {/* <DreiScrollControlsScene /> */}
         {/* <DreiTransformControl /> */}
-        <PivotControlScene />
+        {/* <PivotControlScene /> */}
+
+        {/* <Drei3DTextAndHTML /> */}
+
+        {/* <DreiPositionalAudioHelperScene /> */}
+
+        {/* <DreiShadersScene /> */}
+
+        <DreiMeshPortalMaterialScene />
       </Canvas>
     </section>
   );

@@ -46,3 +46,16 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.text > div {
+  font-family: sans-serif;
+  font-weight: 600;
+  position: absolute;
+  background-color: #00000088;
+  color: white;
+  padding: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 30px;
+  user-select: none;
+}
